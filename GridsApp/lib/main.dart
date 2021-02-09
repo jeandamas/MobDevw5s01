@@ -21,8 +21,8 @@ class _GridsState extends State<Grids> {
       body: Center(
           child: GridView.extent(
         padding: EdgeInsets.all(10),
-        crossAxisSpacing: 10,
-        mainAxisSpacing: 10,
+        crossAxisSpacing: 20,
+        mainAxisSpacing: 15,
         maxCrossAxisExtent: 200.0,
         children: <Widget>[
           Container(
